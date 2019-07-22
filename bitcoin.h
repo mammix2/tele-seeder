@@ -1,3 +1,4 @@
+// Copyright (c) 2017-2019 The TELE developers
 #ifndef _BITCOIN_H_
 #define _BITCOIN_H_ 1
 

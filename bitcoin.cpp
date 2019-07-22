@@ -1,3 +1,4 @@
+// Copyright (c) 2017-2019 The TELE developers
 #include <algorithm>
 
 #include "db.h"
@@ -80,7 +81,7 @@ class CNode {
     CAddress me(CService("0.0.0.0"));
     BeginMessage("version");
     int nBestHeight = GetRequireHeight();
-    string ver = "/bitcoin-seeder:0.01/";
+    string ver = "/tele-seeder:0.01/";
     vSend << PROTOCOL_VERSION << nLocalServices << nTime << you << me << nLocalNonce << ver << nBestHeight;
     EndMessage();
   }

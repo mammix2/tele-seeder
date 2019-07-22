@@ -1,3 +1,4 @@
+// Copyright (c) 2017-2019 The TELE developers
 #include "db.h"
 #include <stdlib.h>
 

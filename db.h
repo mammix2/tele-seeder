@@ -1,3 +1,4 @@
+// Copyright (c) 2017-2019 The TELE developers
 #include <stdint.h>
 #include <math.h>
 
@@ -12,11 +13,11 @@
 
 #define MIN_RETRY 1000
 
-#define REQUIRE_VERSION 70001
+#define REQUIRE_VERSION 70812
 
 static inline int GetRequireHeight(const bool testnet = fTestNet)
 {
-    return testnet ? 500000 : 350000;
+    return testnet ? 0 : 1000;
 }
 
 std::string static inline ToString(const CService &ip) {
